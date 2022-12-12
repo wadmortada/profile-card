@@ -1,0 +1,35 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #19A1AD;
+    hi
+}
+
+.bg-top {
+    width: 500px;
+    position: absolute;
+    top: -220px;
+    left: -200px;
+
+}
+
+.bg-bm {
+    width: 500px;
+    position: absolute;
+    bottom: -200px;
+    right: -200px;
+}
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;    
+    transform: translate(-50%, -50%);
+}
+.card {
+    display: grid;
+}
