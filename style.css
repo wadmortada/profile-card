@@ -14,7 +14,6 @@ body {
     position: absolute;
     top: -220px;
     left: -200px;
-
 }
 
 .bg-bm {
@@ -31,5 +30,40 @@ body {
     transform: translate(-50%, -50%);
 }
 .card {
-    display: grid;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.bg-card {
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+}
+
+.avatar {
+    border-radius: 50%;
+    border: 0.25rem solid white;
+    position: absolute;
+    top: 40%;
+    left: 50%;    
+    transform: translate(-50%, -50%);
+
+}
+
+.card-content {
+    background-color: white;
+    padding: 3rem;
+    border-bottom-left-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+}
+
+.card-head {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.card-social {
+    display: flex;
+    gap: 3rem;
 }
